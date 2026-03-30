@@ -1,0 +1,16 @@
+Package: Friedman
+Title: Tools for Sports Reference Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Orlando", "Cardona", , "ocardona@usf.edu", role = c("aut", "cre"))
+Description: 
+The package provides multiple tools to help with the process of cleaning and analyzing data from the famous source of Sports Reference, a source of data for most major sports.
+Depends: R (>= 3.1.2)
+Imports: dplyr, stringr, tidyr
+License: CC0
+LazyData: true
+URL: https://github.com/orlandoomarcardona12/Friedman.git
+BugReports:https://github.com/orlandoomarcardona12/Friedman/blob/main/Issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
