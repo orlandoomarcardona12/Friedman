@@ -1,4 +1,9 @@
 #Friedman
+
+PASSING DATA IS TEST DATA!
+
+Install with devtools::install_github("orlandoomarcardona12/Friedman").
+
 This package was made to increase my efficiency in retrieving data from the famous sports reference website. There is an abundance of data from that website, but it often comes in an unclean and unusable form. This package aims to make the cleaning process more successful. This package also includes another function for quick insights into the data. 
 The first function, clean_sr_data(), will clean a CSV file from sports reference and, based on your choice, will only keep the columns that were chosen. It will create a new, clean version of the dataset in a form ready to be analyzed. This saves a lot of time typing the same code over and over again. 
 The format is clean_sr_data(data, keep = "the columns you want to keep", output_name = "the name of the new dataset"). 
