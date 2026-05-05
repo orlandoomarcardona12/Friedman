@@ -1,0 +1,7 @@
+#Friedman
+
+PASSING DATA IS TEST DATA!
+
+Install with devtools::install_github("orlandoomarcardona12/Friedman").
+
+This package was made to increase my efficiency in retrieving data from the famous sports reference website. There is an abundance of data from that website, but it often comes in an unclean and unusable form. This package aims to make the cleaning process more successful. This package also includes another function for quick insights into the data. The first function, clean_sr_data(), will clean a CSV file from sports reference and, based on your choice, will only keep the columns that were chosen. It will create a new, clean version of the dataset in a form ready to be analyzed. This saves a lot of time typing the same code over and over again. The format is clean_sr_data(data, keep = "the columns you want to keep", output_name = "the name of the new dataset"). The second function, top10_Summary(), will let the user pick a stat and an identifier column and will print out the top 10 of that stat, ascending or descending. Then it creates a bar chart based on the stats for quick analysis. This makes it so that we can quickly find the outliers in the huge datasets, which saves time. The format for this is top10_Summary(data, stat = "The stat you wanna rank", name_col = "identifying column", order = "asc or desc".
